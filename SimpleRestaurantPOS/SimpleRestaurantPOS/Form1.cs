@@ -70,10 +70,17 @@ namespace SimpleRestaurantPOS
             CurrentReceiptView.Items.Clear();
             foreach(MenuCombo comboItem in comboReceiptList)
             {
-                string[] row = new string[] { "Combo", comboItem.Entree.Title + "\n\t" + comboItem.Side.Title + "\n\t" +
-                    comboItem.Drink.Title, comboItem.Price.ToString() };
-                ListViewItem comboToAdd = new ListViewItem(row);
-                CurrentReceiptView.Items.Add(comboToAdd);
+                string[] entreeRow = new string[] { "Combo", comboItem.Entree.Title, comboItem.Price.ToString() };
+                string[] sideRow = new string[] { null, "\t" + comboItem.Side.Title, null };
+                string[] drinkRow = new string[] { null, "\t" + comboItem.Drink.Title, null };
+
+                ListViewItem entreeToAdd = new ListViewItem(entreeRow);
+                ListViewItem sideToAdd = new ListViewItem(sideRow);
+                ListViewItem drinkToAdd = new ListViewItem(drinkRow);
+
+                CurrentReceiptView.Items.Add(entreeToAdd);
+                CurrentReceiptView.Items.Add(sideToAdd);
+                CurrentReceiptView.Items.Add(drinkToAdd);
 
             }
 
@@ -193,8 +200,8 @@ namespace SimpleRestaurantPOS
             {
                 foreach (int itemToRemove in CurrentReceiptView.SelectedIndices)
                 {
-                    CurrentReceiptView.Items.RemoveAt(itemToRemove);
                     receiptList.RemoveAt(itemToRemove);
+                    CurrentReceiptView.Items.RemoveAt(itemToRemove);
                 }
             }
 
@@ -212,6 +219,11 @@ namespace SimpleRestaurantPOS
             MenuCombo CheeseBurgerCombo = new MenuCombo(CheeseBurger, Fries, Soda, CheeseBurger.Price);
             comboReceiptList.Add(CheeseBurgerCombo);
             showReceipt();
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -8,3 +8,13 @@ G:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\obj\Debu
 G:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\obj\Debug\SimpleRestaurantPOS.csproj.CoreCompileInputs.cache
 G:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\obj\Debug\SimpleRestaurantPOS.exe
 G:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\obj\Debug\SimpleRestaurantPOS.pdb
+C:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\SimpleRestaurantPOS\bin\Debug\SimpleRestaurantPOS.exe.config
+C:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\SimpleRestaurantPOS\bin\Debug\SimpleRestaurantPOS.exe
+C:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\SimpleRestaurantPOS\bin\Debug\SimpleRestaurantPOS.pdb
+C:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\SimpleRestaurantPOS\obj\Debug\SimpleRestaurantPOS.csprojAssemblyReference.cache
+C:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\SimpleRestaurantPOS\obj\Debug\SimpleRestaurantPOS.FormMainMenu.resources
+C:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\SimpleRestaurantPOS\obj\Debug\SimpleRestaurantPOS.Properties.Resources.resources
+C:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\SimpleRestaurantPOS\obj\Debug\SimpleRestaurantPOS.csproj.GenerateResource.cache
+C:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\SimpleRestaurantPOS\obj\Debug\SimpleRestaurantPOS.csproj.CoreCompileInputs.cache
+C:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\SimpleRestaurantPOS\obj\Debug\SimpleRestaurantPOS.exe
+C:\Users\gianc\Documents\GitHub\SimpleRestaurantPOS\SimpleRestaurantPOS\SimpleRestaurantPOS\obj\Debug\SimpleRestaurantPOS.pdb
